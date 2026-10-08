@@ -1,0 +1,18 @@
+{
+  "name": "insta-crm",
+  "version": "1.0.0",
+  "private": true,
+  "workspaces": [
+    "insta-crm-fe",
+    "insta-crm-be",
+    "packages/shared-types"
+  ],
+  "scripts": {
+    "build": "npm run build --workspace @insta-crm/shared-types && npm run build --workspace insta-crm-be && npm run build --workspace insta-crm-fe",
+    "typecheck": "npm run typecheck --workspace insta-crm-be && npm run typecheck --workspace insta-crm-fe",
+    "db:deploy": "npm run db:deploy --workspace insta-crm-be"
+  },
+  "devDependencies": {
+    "@neon/config": "latest"
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "Common": {
+    "loading": "Loading workspace",
+    "save": "Save",
+    "cancel": "Cancel",
+    "settings": "Settings",
+    "signOut": "Sign out"
+  },
+  "Navigation": {
+    "home": "Home",
+    "evidenceVault": "Evidence Vault",
+    "inbox": "Inbox",
+    "gmail": "Email",
+    "leads": "Leads",
+    "contacts": "Contacts",
+    "broadcasts": "Broadcasts",
+    "pipeline": "Pipeline",
+    "today": "Today",
+    "billing": "Billing",
+    "audit": "Audit log",
+    "users": "User management",
+    "overview": "Workspace overview",
+    "teamInbox": "Team inbox",
+    "salesPipeline": "Sales pipeline",
+    "tasks": "Tasks & follow-ups",
+    "billingInvoices": "Billing & invoices",
+    "auditActivity": "Audit activity",
+    "userManagement": "Users & access"
+  },
+  "Language": {
+    "label": "Language",
+    "english": "English",
+    "hindi": "हिन्दी"
+  },
+  "Auth": {
+    "email": "Email",
+    "password": "Password",
+    "signIn": "Sign in",
+    "newAccount": "New to Insta CRM?",
+    "createAccount": "Create an account"
+  },
+  "Inbox": {
+    "title": "Unified inbox",
+    "subtitle": "WhatsApp, SMS and email conversations in one place.",
+    "newConversation": "New conversation",
+    "noConversations": "No conversations yet",
+    "noConversationsHelp": "Start one or wait for an inbound customer message.",
+    "choose": "Choose a conversation",
+    "chooseHelp": "Select a customer thread to view messages.",
+    "search": "Search name, phone or email",
+    "noMessages": "No messages yet.",
+    "typeMessage": "Type a message",
+    "subject": "Email subject"
+  },
+  "Channels": {
+    "title": "SMS & email channels",
+    "subtitle": "Connect MSG91 and Resend for this business.",
+    "sms": "MSG91 SMS",
+    "email": "Resend email",
+    "enabled": "Enabled",
+    "saved": "Channel settings saved"
+  },
+  "Audit": {
+    "title": "Audit log",
+    "subtitle": "A tenant-safe history of changes made by your team.",
+    "empty": "No activity matches these filters.",
+    "actor": "Team member",
+    "action": "Action",
+    "entity": "Record",
+    "time": "Time"
+  }
+}

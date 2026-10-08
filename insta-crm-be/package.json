@@ -1,0 +1,63 @@
+{
+  "name": "insta-crm-be",
+  "version": "1.0.0",
+  "private": true,
+  "engines": {
+    "node": ">=20 <25"
+  },
+  "scripts": {
+    "dev": "npm run build --workspace @insta-crm/shared-types && npm run db:generate && nest build && node scripts/dev.cjs",
+    "build": "npm run build --workspace @insta-crm/shared-types && npm run db:generate && nest build",
+    "start": "node dist/main.js",
+    "start:prod": "node dist/main.js",
+    "typecheck": "npm run build --workspace @insta-crm/shared-types && npm run db:generate && tsc --noEmit",
+    "lint": "eslint \"src/**/*.ts\"",
+    "db:generate": "prisma generate",
+    "db:migrate": "prisma migrate dev",
+    "db:deploy": "prisma migrate deploy"
+  },
+  "dependencies": {
+    "@nestjs/common": "^10.4.15",
+    "@nestjs/config": "^3.3.0",
+    "@nestjs/core": "^10.4.15",
+    "@nestjs/jwt": "^10.2.0",
+    "@nestjs/passport": "^10.0.3",
+    "@nestjs/platform-express": "^10.4.15",
+    "@nestjs/schedule": "^4.1.2",
+    "@prisma/client": "^6.19.0",
+    "@insta-crm/shared-types": "1.0.0",
+    "aws4fetch": "^1.0.20",
+    "bcrypt": "^5.1.1",
+    "class-transformer": "^0.5.1",
+    "class-validator": "^0.14.1",
+    "cookie-parser": "^1.4.7",
+    "helmet": "^8.0.0",
+    "nodemailer": "6.10.1",
+    "passport": "^0.7.0",
+    "passport-jwt": "^4.0.1",
+    "pdf-parse": "1.1.1",
+    "pdfkit": "^0.20.2",
+    "reflect-metadata": "^0.2.2",
+    "rxjs": "^7.8.1",
+    "svix": "2.5.0",
+    "xlsx": "0.18.5"
+  },
+  "devDependencies": {
+    "@nestjs/cli": "^10.4.8",
+    "@types/bcrypt": "^5.0.2",
+    "@types/cookie-parser": "^1.4.7",
+    "@types/express": "^4.17.21",
+    "@types/multer": "^2.0.0",
+    "@types/node": "^22.10.2",
+    "@types/nodemailer": "^8.0.2",
+    "@types/passport-jwt": "^4.0.1",
+    "@types/pdf-parse": "^1.1.5",
+    "@types/pdfkit": "^0.17.6",
+    "@typescript-eslint/eslint-plugin": "^8.18.1",
+    "@typescript-eslint/parser": "^8.18.1",
+    "eslint": "^8.57.1",
+    "prisma": "^6.19.0",
+    "ts-loader": "^9.5.2",
+    "typescript": "^5.7.2"
+  }
+}

@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    /* ── Insta ICT Solutions Brand Palette ───────────────────────────────────────────── */
+    /* Blue  #0057A8  |  Green #00A651  |  Dark Navy #003a62              */
+
+    --background:    210 20% 97%;
+    --foreground:    215 50% 10%;
+    --border:        214 20% 88%;
+    --card:          0 0% 100%;
+    --card-foreground: 215 50% 10%;
+
+    /* Primary → Insta ICT Solutions Royal Blue */
+    --primary:           211 100% 33%;   /* #0057A8 */
+    --primary-foreground: 0 0% 100%;
+
+    /* Secondary → Insta ICT Solutions Green */
+    --secondary:          145 100% 32%;  /* #00A651 */
+    --secondary-foreground: 0 0% 100%;
+
+    /* Accent → Insta ICT Solutions Green (same) */
+    --accent:             145 100% 32%;
+    --accent-foreground:  0 0% 100%;
+
+    --muted:           210 20% 94%;
+    --muted-foreground: 215 16% 47%;
+    --destructive:     0 72% 51%;
+    --destructive-foreground: 0 0% 100%;
+    --radius: 0.75rem;
+  }
+
+  * { @apply border-border; }
+
+  body {
+    @apply bg-background text-foreground antialiased;
+    font-family: 'Inter', sans-serif;
+  }
+
+  input, select, button {
+    font-size: 16px;
+    font-family: 'Inter', sans-serif;
+  }
+}
+
+@layer utilities {
+  .safe-bottom {
+    padding-bottom: max(1rem, env(safe-area-inset-bottom));
+  }
+
+  /* ── Insta ICT Solutions gradient helpers ─────────────────────────────────────── */
+  .insta-sidebar {
+    background: linear-gradient(180deg, #003a62 0%, #0057A8 60%, #0069cc 100%);
+  }
+  .insta-header {
+    background: linear-gradient(90deg, #ffffff 0%, #f0f6ff 100%);
+    border-bottom: 2px solid #0057A8;
+  }
+  .insta-btn {
+    background: linear-gradient(135deg, #0057A8 0%, #0069cc 100%);
+    color: #fff;
+  }
+  .insta-btn:hover {
+    background: linear-gradient(135deg, #003a62 0%, #0057A8 100%);
+  }
+  .insta-btn-green {
+    background: linear-gradient(135deg, #00A651 0%, #00c462 100%);
+    color: #fff;
+  }
+  .insta-card-active {
+    border-left: 3px solid #00A651;
+    background: linear-gradient(90deg, rgba(0,166,81,0.06) 0%, transparent 100%);
+  }
+  .insta-badge {
+    background: #0057A8;
+    color: #fff;
+  }
+  .shadow-insta {
+    box-shadow: 0 4px 24px rgba(0,57,168,0.12);
+  }
+  .shadow-insta-sm {
+    box-shadow: 0 2px 8px rgba(0,57,168,0.10);
+  }
+}

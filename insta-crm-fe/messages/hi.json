@@ -1,0 +1,72 @@
+{
+  "Common": {
+    "loading": "कार्यस्थान लोड हो रहा है",
+    "save": "सहेजें",
+    "cancel": "रद्द करें",
+    "settings": "सेटिंग्स",
+    "signOut": "साइन आउट"
+  },
+  "Navigation": {
+    "home": "होम",
+    "evidenceVault": "साक्ष्य खोज",
+    "inbox": "इनबॉक्स",
+    "gmail": "ईमेल",
+    "leads": "लीड्स",
+    "contacts": "संपर्क",
+    "broadcasts": "ब्रॉडकास्ट",
+    "pipeline": "पाइपलाइन",
+    "today": "आज",
+    "billing": "बिलिंग",
+    "audit": "ऑडिट लॉग",
+    "users": "उपयोगकर्ता प्रबंधन",
+    "overview": "कार्यस्थान सारांश",
+    "teamInbox": "टीम इनबॉक्स",
+    "salesPipeline": "बिक्री पाइपलाइन",
+    "tasks": "कार्य और फॉलो-अप",
+    "billingInvoices": "बिलिंग और चालान",
+    "auditActivity": "ऑडिट गतिविधि",
+    "userManagement": "उपयोगकर्ता और पहुँच"
+  },
+  "Language": {
+    "label": "भाषा",
+    "english": "English",
+    "hindi": "हिन्दी"
+  },
+  "Auth": {
+    "email": "ईमेल",
+    "password": "पासवर्ड",
+    "signIn": "साइन इन",
+    "newAccount": "Insta CRM पर नए हैं?",
+    "createAccount": "खाता बनाएँ"
+  },
+  "Inbox": {
+    "title": "एकीकृत इनबॉक्स",
+    "subtitle": "WhatsApp, SMS और ईमेल बातचीत एक ही जगह।",
+    "newConversation": "नई बातचीत",
+    "noConversations": "अभी कोई बातचीत नहीं",
+    "noConversationsHelp": "नई बातचीत शुरू करें या ग्राहक के संदेश की प्रतीक्षा करें।",
+    "choose": "बातचीत चुनें",
+    "chooseHelp": "संदेश देखने के लिए ग्राहक चुनें।",
+    "search": "नाम, फोन या ईमेल खोजें",
+    "noMessages": "अभी कोई संदेश नहीं।",
+    "typeMessage": "संदेश लिखें",
+    "subject": "ईमेल विषय"
+  },
+  "Channels": {
+    "title": "SMS और ईमेल चैनल",
+    "subtitle": "इस व्यवसाय के लिए MSG91 और Resend जोड़ें।",
+    "sms": "MSG91 SMS",
+    "email": "Resend ईमेल",
+    "enabled": "सक्रिय",
+    "saved": "चैनल सेटिंग्स सहेजी गईं"
+  },
+  "Audit": {
+    "title": "ऑडिट लॉग",
+    "subtitle": "टीम द्वारा किए गए बदलावों का सुरक्षित इतिहास।",
+    "empty": "इन फ़िल्टर से कोई गतिविधि नहीं मिली।",
+    "actor": "टीम सदस्य",
+    "action": "कार्रवाई",
+    "entity": "रिकॉर्ड",
+    "time": "समय"
+  }
+}
